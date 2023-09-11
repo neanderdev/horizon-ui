@@ -1,0 +1,998 @@
+div.main {
+  width: 100%;
+
+  padding: 30px;
+}
+
+div.main div.container {
+  margin-top: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+
+div.main div.container section.info {
+  display: grid;
+  grid-template-columns: 1fr 300px 1fr;
+  gap: 20px;
+}
+
+div.main div.container section.info div.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  padding: 12px;
+
+  background-color: #ffffff;
+
+  border-radius: 20px;
+}
+
+div.main div.container section.info div.profile div.capa {
+  width: 100%;
+  height: 130px;
+
+  background-image: url("../../../assets/capa-profile.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+
+  border-radius: 16px;
+}
+
+div.main div.container section.info div.profile div.capa img {
+  width: 80px;
+  height: 80px;
+
+  position: relative;
+
+  left: 140px;
+  top: 85px;
+
+  border: 4px solid #ffffff;
+  border-radius: 50%;
+
+  object-position: center;
+  object-fit: cover;
+}
+
+div.main div.container section.info div.profile div.user {
+  margin-top: 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.main div.container section.info div.profile div.user span {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.4px;
+
+  text-align: center;
+}
+
+div.main div.container section.info div.profile div.user p {
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+}
+
+div.main div.container section.info div.profile div.user-info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+div.main div.container section.info div.profile div.user-info div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.main div.container section.info div.profile div.user-info div span {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.48px;
+
+  text-align: center;
+}
+
+div.main div.container section.info div.profile div.user-info div p {
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.28px;
+
+  text-align: center;
+}
+
+div.main div.container section.info div.storage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+
+  padding: 12px;
+
+  background-color: #ffffff;
+
+  border-radius: 20px;
+}
+
+div.main div.container section.info div.storage button {
+  margin-left: auto;
+
+  width: 40px;
+  height: 40px;
+
+  background-color: #f4f7fe;
+  color: #4318ff;
+
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+}
+
+div.main div.container section.info div.storage div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+div.main div.container section.info div.storage div div.icon {
+  width: 80px;
+  height: 80px;
+
+  background-color: #f4f7fe;
+
+  border-radius: 50%;
+}
+
+div.main div.container section.info div.storage div div.icon svg {
+  color: #4318ff;
+}
+
+div.main div.container section.info div.storage div span {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.48px;
+
+  text-align: center;
+}
+
+div.main div.container section.info div.storage div p {
+  width: 201px;
+
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.32px;
+
+  text-align: center;
+}
+
+div.main div.container section.info div.storage div.bar-progress {
+  display: flex;
+}
+
+div.main div.container section.info div.storage div.bar-progress div {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.main div.container section.info div.storage div.bar-progress div span {
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+}
+
+div.main div.container section.info div.storage div.bar-progress progress {
+  width: 100%;
+  height: 10px;
+
+  -webkit-appearance: none;
+}
+
+div.main
+  div.container
+  section.info
+  div.storage
+  div.bar-progress
+  progress::-webkit-progress-bar {
+  background-color: #eff4fb;
+
+  border-radius: 40px;
+}
+
+div.main
+  div.container
+  section.info
+  div.storage
+  div.bar-progress
+  progress::-webkit-progress-value {
+  background-color: #4318ff;
+
+  border-radius: 40px;
+}
+
+div.main div.container section.info div.complete-your-profile {
+  display: flex;
+  gap: 20px;
+
+  padding: 12px;
+
+  background-color: #ffffff;
+
+  border-radius: 20px;
+}
+
+div.main div.container section.info div.complete-your-profile div.drop-zone {
+  max-width: 200px;
+  height: 225px;
+
+  padding: 25px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #cccccc;
+
+  border: 4px dashed #009578;
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+div.main
+  div.container
+  section.info
+  div.complete-your-profile
+  div.drop-zone--over {
+  border-style: solid;
+}
+
+div.main
+  div.container
+  section.info
+  div.complete-your-profile
+  div.drop-zone
+  div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.main
+  div.container
+  section.info
+  div.complete-your-profile
+  div.drop-zone
+  div
+  svg {
+  color: #4318ff;
+}
+
+div.main
+  div.container
+  section.info
+  div.complete-your-profile
+  div.drop-zone
+  div
+  span {
+  color: #4318ff;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.4px;
+
+  text-align: center;
+}
+
+div.main
+  div.container
+  section.info
+  div.complete-your-profile
+  div.drop-zone
+  div
+  p {
+  color: #8f9bba;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.24px;
+
+  text-align: center;
+}
+
+div.main
+  div.container
+  section.info
+  div.complete-your-profile
+  div.drop-zone
+  input {
+  display: none;
+}
+
+div.main div.container section.info div.complete-your-profile div.info {
+  max-width: 200px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+div.main div.container section.info div.complete-your-profile div.info div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+div.main
+  div.container
+  section.info
+  div.complete-your-profile
+  div.info
+  div
+  span {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.48px;
+}
+
+div.main div.container section.info div.complete-your-profile div.info div p {
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.32px;
+}
+
+div.main div.container section.info div.complete-your-profile div.info button {
+  padding: 6px 12px;
+
+  background-color: #4318ff;
+  color: #ffffff;
+
+  border: 0;
+  outline: 0;
+  border-radius: 12px;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+
+  text-align: center;
+}
+
+div.main div.container section.other-info {
+  display: grid;
+  grid-template-columns: 400px 1fr 350px;
+  gap: 20px;
+}
+
+div.main div.container section.other-info div.all-projects {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  padding: 12px;
+
+  background-color: #ffffff;
+  box-shadow: 14px 17px 40px 4px rgba(112, 144, 176, 0.08);
+
+  border-radius: 20px;
+}
+
+div.main div.container section.other-info div.all-projects h4 {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.48px;
+}
+
+div.main div.container section.other-info div.all-projects p {
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.32px;
+}
+
+div.main div.container section.other-info div.all-projects div.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+div.main div.container section.other-info div.all-projects div.cards div.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px;
+
+  background-color: #ffffff;
+  box-shadow: 0px 18px 40px 0px rgba(112, 144, 176, 0.12);
+
+  border-radius: 16px;
+}
+
+div.main
+  div.container
+  section.other-info
+  div.all-projects
+  div.cards
+  div.card
+  div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+div.main
+  div.container
+  section.other-info
+  div.all-projects
+  div.cards
+  div.card
+  div
+  img {
+  width: 80px;
+  height: 80px;
+
+  border-radius: 8px;
+
+  object-position: center;
+  object-fit: cover;
+}
+
+div.main
+  div.container
+  section.other-info
+  div.all-projects
+  div.cards
+  div.card
+  div
+  div.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+div.main
+  div.container
+  section.other-info
+  div.all-projects
+  div.cards
+  div.card
+  div
+  div.info
+  span {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.32px;
+}
+
+div.main
+  div.container
+  section.other-info
+  div.all-projects
+  div.cards
+  div.card
+  div
+  div.info
+  p {
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.28px;
+}
+
+div.main
+  div.container
+  section.other-info
+  div.all-projects
+  div.cards
+  div.card
+  div
+  div.info
+  p
+  a {
+  color: #4318ff;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.28px;
+
+  text-decoration-line: underline;
+}
+
+div.main
+  div.container
+  section.other-info
+  div.all-projects
+  div.cards
+  div.card
+  button {
+  background-color: transparent;
+  color: #8f9bba;
+
+  border: 0;
+  outline: 0;
+}
+
+div.main div.container section.other-info div.general-information {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  padding: 12px;
+
+  background-color: #ffffff;
+  box-shadow: 14px 17px 40px 4px rgba(112, 144, 176, 0.08);
+
+  border-radius: 20px;
+}
+
+div.main div.container section.other-info div.general-information h4 {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.48px;
+}
+
+div.main div.container section.other-info div.general-information p {
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.32px;
+}
+
+div.main div.container section.other-info div.general-information div.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+div.main
+  div.container
+  section.other-info
+  div.general-information
+  div.cards
+  div.card {
+  padding: 12px;
+
+  background-color: #ffffff;
+  box-shadow: 0px 18px 40px 0px rgba(112, 144, 176, 0.12);
+
+  border-radius: 16px;
+}
+
+div.main
+  div.container
+  section.other-info
+  div.general-information
+  div.cards
+  div.card
+  p {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -0.32px;
+}
+
+div.main
+  div.container
+  section.other-info
+  div.general-information
+  div.cards
+  div.card
+  span {
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.28px;
+}
+
+div.main div.container section.other-info div.notifications {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  padding: 12px;
+
+  background-color: #ffffff;
+  box-shadow: 14px 17px 40px 4px rgba(112, 144, 176, 0.08);
+
+  border-radius: 20px;
+}
+
+div.main div.container section.other-info div.notifications header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.main div.container section.other-info div.notifications header h2 {
+  color: #1b2559;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.48px;
+}
+
+div.main div.container section.other-info div.notifications header button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  padding: 8px;
+
+  background-color: #f4f7fe;
+  color: #a3aed0;
+
+  border: 0;
+  outline: 0;
+  border-radius: 8px;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+}
+
+div.main
+  div.container
+  section.other-info
+  div.notifications
+  header
+  button
+  svg.purple {
+  color: #4318ff;
+}
+
+div.main div.container section.other-info div.notifications div.items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+div.main div.container section.other-info div.notifications div.items div.item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+div.main
+  div.container
+  section.other-info
+  div.notifications
+  div.items
+  div.item
+  label.switch {
+  width: 36px;
+  height: 18px;
+
+  position: relative;
+  display: inline-block;
+}
+
+div.main
+  div.container
+  section.other-info
+  div.notifications
+  div.items
+  div.item
+  label.switch
+  input {
+  width: 0;
+  height: 0;
+
+  opacity: 0;
+}
+
+div.main
+  div.container
+  section.other-info
+  div.notifications
+  div.items
+  div.item
+  label.switch
+  span.slider {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background-color: #e0e5f2;
+
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+
+  cursor: pointer;
+}
+
+div.main
+  div.container
+  section.other-info
+  div.notifications
+  div.items
+  div.item
+  label.switch
+  span.slider:before {
+  content: "";
+
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 1px;
+
+  background-color: #ffffff;
+
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+div.main
+  div.container
+  section.other-info
+  div.notifications
+  div.items
+  div.item
+  label.switch
+  input:checked
+  + .slider {
+  background-color: #4318ff;
+}
+
+div.main
+  div.container
+  section.other-info
+  div.notifications
+  div.items
+  div.item
+  label.switch
+  input:focus
+  + .slider {
+  box-shadow: 0 0 1px #4318ff;
+}
+
+div.main
+  div.container
+  section.other-info
+  div.notifications
+  div.items
+  div.item
+  label.switch
+  input:checked
+  + .slider:before {
+  -webkit-transform: translateX(16px);
+  -ms-transform: translateX(16px);
+  transform: translateX(16px);
+}
+
+/* Rounded sliders */
+div.main
+  div.container
+  section.other-info
+  div.notifications
+  div.items
+  div.item
+  label.switch
+  span.slider.round {
+  border-radius: 34px;
+}
+
+div.main
+  div.container
+  section.other-info
+  div.notifications
+  div.items
+  div.item
+  label.switch
+  span.slider.round:before {
+  border-radius: 50%;
+}
+
+div.main
+  div.container
+  section.other-info
+  div.notifications
+  div.items
+  div.item
+  span {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+}
+
+div.main footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-top: 16px;
+}
+
+div.main footer span {
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+}
+
+div.main footer span span.simmmple {
+  font-weight: 700;
+}
+
+div.main footer div.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+div.main footer div.links a {
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+}
+
+@media screen and (max-width: 1536px) {
+  div.main div.container section.other-info div.general-information div.cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+  div.main div.container section.info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  div.main div.container section.other-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  div.main {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  div.main div.container section.info {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+  div.main div.container section.other-info {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+  div.main div.container section.other-info div.general-information div.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  div.main {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  div.main {
+    padding: 6px;
+  }
+
+  div.main footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

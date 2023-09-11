@@ -1,0 +1,1992 @@
+div.main {
+  width: 100%;
+
+  padding: 30px;
+}
+
+div.main div.graphic-dashboard {
+  margin-top: 30px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+div.main div.graphic-dashboard section.stats {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+
+div.main div.graphic-dashboard section.stats div.stat {
+  height: 100px;
+
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  background-color: #ffffff;
+
+  border-radius: 20px;
+}
+
+div.main div.graphic-dashboard section.stats div.stat div.icon {
+  width: 56px;
+  height: 56px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f4f7fe;
+
+  border-radius: 50%;
+}
+
+div.main div.graphic-dashboard section.stats div.stat div.shadow {
+  background: linear-gradient(90deg, #4481eb 0%, #04befe 100%);
+}
+
+div.main div.graphic-dashboard section.stats div.stat div.icon svg {
+  color: #4318ff;
+}
+
+div.main div.graphic-dashboard section.stats div.stat div.shadow svg {
+  color: #ffffff;
+}
+
+div.main div.graphic-dashboard section.stats div.stat div.info {
+  display: flex;
+  flex-direction: column;
+}
+
+div.main div.graphic-dashboard section.stats div.stat div.info span {
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+}
+
+div.main div.graphic-dashboard section.stats div.stat div.info strong {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.48px;
+}
+
+div.main div.graphic-dashboard section.stats div.stat div.info p {
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.24px;
+}
+
+div.main div.graphic-dashboard section.stats div.stat div.info p span {
+  color: #05cd99;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.24px;
+}
+
+div.main div.graphic-dashboard section.stats div.stat div.country {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+div.main div.graphic-dashboard section.stats div.stat div.country img {
+  width: 50px;
+  height: 50px;
+
+  border-radius: 50%;
+}
+
+div.main div.graphic-dashboard section.stats div.stat div.country svg {
+  color: #a3aed0;
+
+  cursor: pointer;
+}
+
+div.main div.graphic-dashboard section.charts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+
+  width: 100%;
+  height: 345px;
+}
+
+div.main div.graphic-dashboard section.charts div.graphic-1 {
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+
+  background-color: #ffffff;
+
+  border-radius: 20px;
+}
+
+div.main div.graphic-dashboard section.charts div.graphic-1 header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.main div.graphic-dashboard section.charts div.graphic-1 header button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  padding: 8px;
+
+  background-color: #f4f7fe;
+  color: #a3aed0;
+
+  border: 0;
+  outline: 0;
+  border-radius: 8px;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.charts
+  div.graphic-1
+  header
+  button
+  svg.purple {
+  color: #4318ff;
+}
+
+div.main div.graphic-dashboard section.charts div.graphic-1 div.container {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+
+  margin-top: 16px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.charts
+  div.graphic-1
+  div.container
+  div.info {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.charts
+  div.graphic-1
+  div.container
+  div.info
+  div
+  h1 {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.68px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.charts
+  div.graphic-1
+  div.container
+  div.info
+  div
+  div.total-spent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.charts
+  div.graphic-1
+  div.container
+  div.info
+  div
+  div.total-spent
+  span {
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.charts
+  div.graphic-1
+  div.container
+  div.info
+  div
+  div.total-spent
+  div {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.charts
+  div.graphic-1
+  div.container
+  div.info
+  div
+  div.total-spent
+  div
+  svg {
+  color: #05cd99;
+}
+
+div.main
+  div.graphic-dashboard
+  section.charts
+  div.graphic-1
+  div.container
+  div.info
+  div
+  div.total-spent
+  div
+  span {
+  color: #05cd99;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.24px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.charts
+  div.graphic-1
+  div.container
+  div.info
+  div.on-track {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.charts
+  div.graphic-1
+  div.container
+  div.info
+  div.on-track
+  svg {
+  color: #05cd99;
+}
+
+div.main
+  div.graphic-dashboard
+  section.charts
+  div.graphic-1
+  div.container
+  div.info
+  div.on-track
+  span {
+  color: #05cd99;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.32px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.charts
+  div.graphic-1
+  div.container
+  div.graphic {
+  width: 100%;
+  height: 100%;
+}
+
+div.main div.graphic-dashboard section.charts div.graphic-2 {
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+
+  background-color: #ffffff;
+
+  border-radius: 20px;
+}
+
+div.main div.graphic-dashboard section.charts div.graphic-2 header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.main div.graphic-dashboard section.charts div.graphic-2 header button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  padding: 8px;
+
+  background-color: #f4f7fe;
+  color: #a3aed0;
+
+  border: 0;
+  outline: 0;
+  border-radius: 8px;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+}
+
+div.main div.graphic-dashboard section.charts div.graphic-2 header h2 {
+  color: #1b2559;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.48px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.charts
+  div.graphic-2
+  header
+  button
+  svg.purple {
+  color: #4318ff;
+}
+
+div.main div.graphic-dashboard section.charts div.graphic-2 div.container {
+  width: 100%;
+  height: 100%;
+
+  margin-top: 16px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.charts
+  div.graphic-2
+  div.container
+  div.graphic {
+  width: 100%;
+  height: 100%;
+}
+
+div.main div.graphic-dashboard section.tables-charts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+div.main div.graphic-dashboard section.tables-charts div.check-table {
+  height: 345px;
+
+  padding: 20px;
+
+  background-color: #ffffff;
+
+  border-radius: 20px;
+}
+
+div.main div.graphic-dashboard section.tables-charts div.check-table header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.main div.graphic-dashboard section.tables-charts div.check-table header h2 {
+  color: #1b2559;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.48px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.check-table
+  header
+  button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  padding: 8px;
+
+  background-color: #f4f7fe;
+  color: #a3aed0;
+
+  border: 0;
+  outline: 0;
+  border-radius: 8px;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.check-table
+  header
+  button
+  svg.purple {
+  color: #4318ff;
+}
+
+div.main div.graphic-dashboard section.tables-charts div.check-table table {
+  width: 100%;
+
+  margin-top: 16px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.check-table
+  table
+  thead
+  tr
+  th {
+  padding-right: 24px;
+
+  text-align: start;
+
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+
+  text-transform: uppercase;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.check-table
+  table
+  thead
+  tr
+  th:nth-child(1) {
+  text-align: start;
+
+  padding-right: 124px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.check-table
+  table
+  tbody
+  tr
+  td {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+
+  padding-top: 16px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.check-table
+  table
+  tbody
+  tr
+  td:nth-child(1) {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.check-table
+  table
+  tbody
+  tr
+  td:nth-child(1)
+  input {
+  width: 20px;
+  height: 20px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.traffic-chart-and-pie-chart {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.traffic-chart-and-pie-chart
+  div.traffic-chart {
+  height: 345px;
+
+  padding: 20px;
+
+  background-color: #ffffff;
+
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.traffic-chart-and-pie-chart
+  div.traffic-chart
+  header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.traffic-chart-and-pie-chart
+  div.traffic-chart
+  div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.traffic-chart-and-pie-chart
+  div.traffic-chart
+  div
+  span {
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.traffic-chart-and-pie-chart
+  div.traffic-chart
+  div
+  h2 {
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.68px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.traffic-chart-and-pie-chart
+  div.traffic-chart
+  div
+  h2
+  span {
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.traffic-chart-and-pie-chart
+  div.traffic-chart
+  span {
+  display: flex;
+  align-items: center;
+
+  color: #05cd99;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.24px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.traffic-chart-and-pie-chart
+  div.traffic-chart
+  span
+  svg {
+  color: #05cd99;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.traffic-chart-and-pie-chart
+  div.traffic-chart
+  div.chart {
+  width: 100%;
+  height: 100%;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.traffic-chart-and-pie-chart
+  div.pie-chart {
+  height: 345px;
+
+  padding: 20px;
+
+  background-color: #ffffff;
+
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.traffic-chart-and-pie-chart
+  div.pie-chart
+  header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.traffic-chart-and-pie-chart
+  div.pie-chart
+  header
+  h2 {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.32px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.traffic-chart-and-pie-chart
+  div.pie-chart
+  header
+  div {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.24px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.traffic-chart-and-pie-chart
+  div.pie-chart
+  div.chart {
+  width: 100%;
+  height: 220px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.traffic-chart-and-pie-chart
+  div.pie-chart
+  div.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.traffic-chart-and-pie-chart
+  div.pie-chart
+  div.content
+  div.info
+  p {
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.24px;
+
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.traffic-chart-and-pie-chart
+  div.pie-chart
+  div.content
+  div.info
+  p::before {
+  content: "";
+
+  display: flex;
+
+  width: 8px;
+  height: 8px;
+
+  border-radius: 50%;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.traffic-chart-and-pie-chart
+  div.pie-chart
+  div.content
+  div.info
+  p.purple::before {
+  background-color: #4318ff;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.traffic-chart-and-pie-chart
+  div.pie-chart
+  div.content
+  div.info
+  p.aqua::before {
+  background-color: #6ad2ff;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.traffic-chart-and-pie-chart
+  div.pie-chart
+  div.content
+  div.info
+  span {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.traffic-chart-and-pie-chart
+  div.pie-chart
+  div.content
+  hr {
+  background-color: #a3aed0;
+}
+
+div.main div.graphic-dashboard section.tables-charts div.complex-table {
+  height: 345px;
+
+  padding: 20px;
+
+  background-color: #ffffff;
+
+  border-radius: 20px;
+}
+
+div.main div.graphic-dashboard section.tables-charts div.complex-table header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.complex-table
+  header
+  h2 {
+  color: #1b2559;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.48px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.complex-table
+  header
+  button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  padding: 8px;
+
+  background-color: #f4f7fe;
+  color: #a3aed0;
+
+  border: 0;
+  outline: 0;
+  border-radius: 8px;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.complex-table
+  header
+  button
+  svg.purple {
+  color: #4318ff;
+}
+
+div.main div.graphic-dashboard section.tables-charts div.complex-table table {
+  width: 100%;
+
+  margin-top: 16px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.complex-table
+  table
+  thead
+  tr
+  th {
+  padding-right: 24px;
+
+  text-align: start;
+
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+
+  text-transform: uppercase;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.complex-table
+  table
+  thead
+  tr
+  th:nth-child(1) {
+  text-align: start;
+
+  padding-right: 124px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.complex-table
+  table
+  tbody
+  tr
+  td {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+
+  padding-top: 16px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.complex-table
+  table
+  tbody
+  tr
+  td:nth-child(2) {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.complex-table
+  table
+  tbody
+  tr
+  td.approved
+  svg {
+  color: #05cd99;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.complex-table
+  table
+  tbody
+  tr
+  td.disable
+  svg {
+  color: #ee5d50;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.complex-table
+  table
+  tbody
+  tr
+  td.error
+  svg {
+  color: #ffce20;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.complex-table
+  table
+  tbody
+  tr
+  td:nth-child(4)
+  progress {
+  width: 108px;
+  height: 8px;
+
+  -webkit-appearance: none;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.complex-table
+  table
+  tbody
+  tr
+  td:nth-child(4)
+  progress::-webkit-progress-bar {
+  background-color: #eff4fb;
+
+  border-radius: 40px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.complex-table
+  table
+  tbody
+  tr
+  td:nth-child(4)
+  progress::-webkit-progress-value {
+  background-color: #4318ff;
+
+  border-radius: 40px;
+}
+
+div.main div.graphic-dashboard section.tables-charts div.tasks-and-calendar {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.tasks-and-calendar
+  div.tasks {
+  height: 345px;
+
+  padding: 20px;
+
+  background-color: #ffffff;
+
+  border-radius: 20px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.tasks-and-calendar
+  div.tasks
+  header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.tasks-and-calendar
+  div.tasks
+  header
+  div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.tasks-and-calendar
+  div.tasks
+  header
+  div
+  div.icon {
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #eff4fb;
+
+  border-radius: 50%;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.tasks-and-calendar
+  div.tasks
+  header
+  div
+  div.icon
+  svg {
+  color: #4318ff;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.tasks-and-calendar
+  div.tasks
+  header
+  button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  padding: 8px;
+
+  background-color: #f4f7fe;
+  color: #a3aed0;
+
+  border: 0;
+  outline: 0;
+  border-radius: 8px;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.tasks-and-calendar
+  div.tasks
+  header
+  button
+  svg.purple {
+  color: #4318ff;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.tasks-and-calendar
+  div.tasks
+  div.list-task {
+  margin: 16px 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.tasks-and-calendar
+  div.tasks
+  div.list-task
+  div.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.tasks-and-calendar
+  div.tasks
+  div.list-task
+  div.task
+  div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.tasks-and-calendar
+  div.tasks
+  div.list-task
+  div.task
+  div
+  input {
+  width: 20px;
+  height: 20px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.tasks-and-calendar
+  div.tasks
+  div.list-task
+  div.task
+  div
+  h2.unchecked {
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.32px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.tasks-and-calendar
+  div.tasks
+  div.list-task
+  div.task
+  div
+  h2.checked {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.32px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.tasks-and-calendar
+  div.tasks
+  div.list-task
+  div.task
+  svg {
+  color: #b0bbd5;
+}
+
+div.main
+  div.graphic-dashboard
+  section.tables-charts
+  div.tasks-and-calendar
+  div.calendar {
+  height: 345px;
+
+  padding: 20px;
+
+  background-color: #ffffff;
+
+  border-radius: 20px;
+}
+
+div.main div.graphic-dashboard section.other-info {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+div.main div.graphic-dashboard section.other-info div.course-cta {
+  height: 345px;
+
+  padding: 20px;
+
+  background-color: #ffffff;
+
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+div.main div.graphic-dashboard section.other-info div.course-cta header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.other-info
+  div.course-cta
+  header
+  div.icon {
+  width: 48px;
+  height: 48px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #feefee;
+
+  border-radius: 15px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.other-info
+  div.course-cta
+  header
+  div.icon
+  svg {
+  color: #ee5d50;
+}
+
+div.main
+  div.graphic-dashboard
+  section.other-info
+  div.course-cta
+  header
+  div
+  span {
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.24px;
+}
+
+div.main div.graphic-dashboard section.other-info div.course-cta header div p {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.32px;
+}
+
+div.main div.graphic-dashboard section.other-info div.course-cta h2 {
+  width: 272px;
+
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.4px;
+}
+
+div.main div.graphic-dashboard section.other-info div.course-cta div.info {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+div.main div.graphic-dashboard section.other-info div.course-cta div.info div {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.other-info
+  div.course-cta
+  div.info
+  div
+  svg.green {
+  color: #01b574;
+}
+
+div.main
+  div.graphic-dashboard
+  section.other-info
+  div.course-cta
+  div.info
+  div
+  svg.orange {
+  color: #ee5d50;
+}
+
+div.main
+  div.graphic-dashboard
+  section.other-info
+  div.course-cta
+  div.info
+  div
+  span {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+}
+
+div.main div.graphic-dashboard section.other-info div.course-cta div.started {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.main
+  div.graphic-dashboard
+  section.other-info
+  div.course-cta
+  div.started
+  div.avatars {
+  display: flex;
+  align-items: center;
+}
+
+div.main
+  div.graphic-dashboard
+  section.other-info
+  div.course-cta
+  div.started
+  img {
+  width: 40px;
+  height: 40px;
+
+  margin-left: -12px;
+
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+
+  object-position: center;
+  object-fit: cover;
+}
+
+div.main
+  div.graphic-dashboard
+  section.other-info
+  div.course-cta
+  div.started
+  img:nth-child(1) {
+  margin-left: 0;
+}
+
+div.main
+  div.graphic-dashboard
+  section.other-info
+  div.course-cta
+  div.started
+  span.more {
+  width: 40px;
+  height: 40px;
+
+  margin-left: -12px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #e0e5f2;
+
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+
+  color: #4318ff;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 15.111px;
+  letter-spacing: -0.176px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.other-info
+  div.course-cta
+  div.started
+  button {
+  background-color: #4318ff;
+
+  padding: 8px 16px;
+
+  border: 0;
+  outline: 0;
+  border-radius: 16px;
+
+  color: #ffffff;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+
+  text-align: center;
+}
+
+div.main div.graphic-dashboard section.other-info div.teams {
+  height: 345px;
+
+  padding: 20px;
+
+  background-color: #ffffff;
+
+  border-radius: 20px;
+}
+
+div.main div.graphic-dashboard section.other-info div.teams header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.main div.graphic-dashboard section.other-info div.teams header h2 {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.36px;
+}
+
+div.main div.graphic-dashboard section.other-info div.teams header button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  padding: 8px;
+
+  background-color: #f4f7fe;
+  color: #a3aed0;
+
+  border: 0;
+  outline: 0;
+  border-radius: 8px;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.other-info
+  div.teams
+  header
+  button
+  svg.purple {
+  color: #4318ff;
+}
+
+div.main div.graphic-dashboard section.other-info div.teams div.team-members {
+  margin: 12px 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.other-info
+  div.teams
+  div.team-members
+  div.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 12px 4px;
+
+  background-color: #ffffff;
+  box-shadow: 0px 18px 40px 0px rgba(112, 144, 176, 0.12);
+
+  border-radius: 16px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.other-info
+  div.teams
+  div.team-members
+  div.card
+  div.info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.other-info
+  div.teams
+  div.team-members
+  div.card
+  div.info
+  img {
+  width: 46px;
+  height: 46px;
+
+  border-radius: 50%;
+}
+
+div.main
+  div.graphic-dashboard
+  section.other-info
+  div.teams
+  div.team-members
+  div.card
+  div.info
+  div
+  p {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.32px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.other-info
+  div.teams
+  div.team-members
+  div.card
+  div.info
+  div
+  span {
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.24px;
+}
+
+div.main div.graphic-dashboard section.other-info div.safety {
+  height: 345px;
+
+  padding: 20px;
+
+  background-color: #ffffff;
+
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+div.main div.graphic-dashboard section.other-info div.safety svg {
+  color: #4318ff;
+}
+
+div.main div.graphic-dashboard section.other-info div.safety h2 {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.48px;
+}
+
+div.main div.graphic-dashboard section.other-info div.safety span {
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+}
+
+div.main div.graphic-dashboard section.other-info div.safety button {
+  width: 100%;
+
+  padding: 12px 0;
+
+  background-color: #4318ff;
+
+  border: 0;
+  outline: 0;
+  border-radius: 16px;
+
+  color: #ffffff;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+
+  text-align: center;
+}
+
+div.main div.graphic-dashboard section.other-info div.cashback {
+  height: 345px;
+
+  padding: 20px;
+
+  background-color: #ffffff;
+
+  border-radius: 20px;
+}
+
+div.main div.graphic-dashboard section.other-info div.cashback div.background {
+  width: 100%;
+  height: 150px;
+
+  background-image: url("https://images.unsplash.com/photo-1592321675774-3de57f3ee0dc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=100");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+
+  border-radius: 20px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.other-info
+  div.cashback
+  div.background
+  div.icon {
+  width: 43px;
+  height: 43px;
+
+  margin-left: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #111c44;
+  border-radius: 12px;
+
+  position: relative;
+
+  top: 10px;
+  right: 10px;
+}
+
+div.main
+  div.graphic-dashboard
+  section.other-info
+  div.cashback
+  div.background
+  div.icon
+  svg {
+  color: #ffffff;
+}
+
+div.main
+  div.graphic-dashboard
+  section.other-info
+  div.cashback
+  div.background
+  img {
+  width: 60px;
+  height: 60px;
+
+  border-radius: 50%;
+
+  position: relative;
+
+  top: 75px;
+  left: 15px;
+}
+
+div.main div.graphic-dashboard section.other-info div.cashback h4 {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.48px;
+
+  margin-top: 39px;
+}
+
+div.main div.graphic-dashboard section.other-info div.cashback div.info {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  margin-top: 6px;
+}
+
+div.main div.graphic-dashboard section.other-info div.cashback div.info svg {
+  color: #a3aed0;
+}
+
+div.main div.graphic-dashboard section.other-info div.cashback div.info span {
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+}
+
+@media screen and (max-width: 1600px) {
+  div.main div.graphic-dashboard section.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1536px) {
+  div.main div.graphic-dashboard section.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  div.main div.graphic-dashboard section.tables-charts {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+  div.main div.graphic-dashboard section.other-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  div.main {
+    padding: 20px;
+  }
+
+  div.main div.graphic-dashboard section.tables-charts {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+  div.main div.graphic-dashboard section.tables-charts {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+  div.main div.graphic-dashboard section.other-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  div.main div.graphic-dashboard section.stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  div.main {
+    padding: 10px;
+  }
+
+  div.main div.graphic-dashboard section.stats {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+  div.main
+    div.graphic-dashboard
+    section.tables-charts
+    div.traffic-chart-and-pie-chart {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+  div.main div.graphic-dashboard section.tables-charts div.tasks-and-calendar {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+  div.main div.graphic-dashboard section.other-info {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+}

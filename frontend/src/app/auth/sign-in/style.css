@@ -1,0 +1,358 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+section.form {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 40px 100px;
+}
+
+section.form div {
+  padding-top: 8px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+section.form div div.header-form {
+  display: flex;
+  flex-direction: column;
+}
+
+section.form div div.header-form div.header-form-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+section.form div div.header-form div.header-form-info h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -0.72px;
+
+  color: #2b3674;
+}
+
+section.form div div.header-form div.header-form-info span {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -0.32px;
+
+  color: #a3aed0;
+}
+
+section.form div div.header-form button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  padding: 10px;
+
+  background-color: #f4f7fe;
+  color: #2b3674;
+
+  border: 0;
+  outline: 0;
+  border-radius: 16px;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.28px;
+}
+
+section.form div div.separator {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+section.form div div.separator hr {
+  width: 100%;
+
+  background-color: #e0e5f2;
+}
+
+section.form div div.separator span {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+
+  color: #a3aed0;
+}
+
+section.form div form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+section.form div form div.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+section.form div form div.input-wrapper label {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.28px;
+
+  color: #2b3674;
+}
+
+section.form div form div.input-wrapper label span {
+  color: #4318ff;
+}
+
+section.form div form div.input-wrapper input {
+  padding: 10px 15px;
+
+  background-color: transparent;
+  color: #a3aed0;
+
+  border: 1px solid #e0e5f2;
+  border-radius: 16px;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -0.28px;
+}
+
+section.form div form div.forgot-and-checkout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.form div form div.forgot-and-checkout div.checkout-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+}
+
+section.form div form div.forgot-and-checkout div.checkout-wrapper input {
+  border-radius: 2px;
+}
+
+section.form div form div.forgot-and-checkout div.checkout-wrapper label {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.28px;
+
+  color: #2b3674;
+}
+
+section.form div form div.forgot-and-checkout a {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.28px;
+
+  color: #4318ff;
+}
+
+section.form div form button {
+  padding: 10px;
+
+  background-color: #4318ff;
+  color: #ffffff;
+
+  border: 0;
+  outline: 0;
+  border-radius: 16px;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.28px;
+  text-align: center;
+}
+
+section.form div span {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.28px;
+}
+
+section.form div span a {
+  color: #4318ff;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: -0.28px;
+}
+
+section.form footer p {
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+}
+
+section.form footer p span {
+  font-weight: 700;
+}
+
+section.info {
+  width: 50%;
+
+  padding: 24px 24px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  background: url("../../../assets/background-sign-in.png"),
+    lightgray 50% / cover no-repeat;
+
+  border-radius: 0px 0px 0px 200px;
+}
+
+section.info div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 44px;
+}
+
+section.info div div.logo {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+section.info div div.info-site {
+  width: 470px;
+
+  padding: 24px 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+
+  border-radius: 26px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+section.info div div.info-site span {
+  color: #ffffff;
+
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 17.5px;
+  font-weight: 400;
+  line-height: 100%;
+  text-align: center;
+}
+
+section.info div div.info-site a {
+  color: #ffffff;
+
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 45.5px;
+  text-align: center;
+}
+
+section.info footer {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+section.info footer div.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+section.info footer div.links a {
+  color: #ffffff;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+  text-align: center;
+}
+
+section.info footer button {
+  width: 60px;
+  height: 60px;
+
+  background: linear-gradient(135deg, #868cff 0%, #4318ff 100%);
+
+  border: 0;
+  outline: 0;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 950px) {
+  section.form {
+    width: 100%;
+  }
+
+  section.info {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  section.form {
+    padding: 40px 24px;
+  }
+}

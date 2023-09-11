@@ -1,0 +1,119 @@
+aside {
+  min-width: 270px;
+  min-height: 100%;
+
+  background-color: #ffffff;
+}
+
+aside div.logo {
+  padding: 34px;
+}
+
+aside div.logo strong {
+  color: #2b3674;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+aside div.logo strong span {
+  color: #2b3674;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+aside hr {
+  height: 1px;
+
+  background-color: #f4f7fe;
+}
+
+aside div.info {
+  margin-top: 38px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+aside div.info div.links {
+  padding-left: 34px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+aside div.info div.get-pro {
+  width: 100%;
+  height: 400px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+aside div.info div.get-pro div.container {
+  width: 228px;
+
+  background: linear-gradient(135deg, #868cff 0%, #4318ff 100%);
+
+  border-radius: 24px;
+
+  position: relative;
+}
+
+aside div.info div.get-pro div.container div.background-top {
+  width: 80px;
+  height: 80px;
+
+  background: linear-gradient(135deg, #868cff 0%, #4318ff 100%);
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: -40px;
+  left: 70px;
+}
+
+aside div.info div.get-pro div.container div.info {
+  padding: 24px;
+}
+
+aside div.info div.get-pro div.container div.info h4 {
+  color: #ffffff;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.32px;
+
+  text-align: center;
+}
+
+aside div.info div.get-pro div.container div.info p {
+  color: #e9edf7;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+
+  text-align: center;
+}
+
+@media screen and (max-width: 1280px) {
+  aside {
+    display: none;
+  }
+}

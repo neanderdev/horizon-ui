@@ -1,0 +1,637 @@
+div.main {
+  width: 100%;
+
+  padding: 30px;
+}
+
+div.main div.container {
+  margin-top: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+div.main div.container div.development-table {
+  height: 579px;
+
+  padding: 20px;
+
+  background-color: #ffffff;
+
+  border-radius: 20px;
+}
+
+div.main div.container div.development-table header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.main div.container div.development-table header h2 {
+  color: #1b2559;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.48px;
+}
+
+div.main div.container div.development-table header button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  padding: 8px;
+
+  background-color: #f4f7fe;
+  color: #a3aed0;
+
+  border: 0;
+  outline: 0;
+  border-radius: 8px;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+}
+
+div.main div.container div.development-table header button svg.purple {
+  color: #4318ff;
+}
+
+div.main div.container div.development-table table {
+  width: 100%;
+
+  margin-top: 16px;
+}
+
+div.main div.container div.development-table table thead tr th {
+  padding-right: 24px;
+
+  text-align: start;
+
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+
+  text-transform: uppercase;
+}
+
+div.main div.container div.development-table table thead tr th:nth-child(1) {
+  text-align: start;
+
+  padding-right: 124px;
+}
+
+div.main div.container div.development-table table tbody tr td {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+
+  padding-top: 16px;
+}
+
+div.main
+  div.container
+  div.development-table
+  table
+  tbody
+  tr
+  td:nth-child(2)
+  div.system-os {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+div.main
+  div.container
+  div.development-table
+  table
+  tbody
+  tr
+  td:nth-child(2)
+  div.system-os
+  svg {
+  color: #e0e5f2;
+}
+
+div.main div.container div.development-table table tbody tr td:nth-child(4) {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+div.main
+  div.container
+  div.development-table
+  table
+  tbody
+  tr
+  td:nth-child(4)
+  progress {
+  width: 63px;
+  height: 8px;
+
+  -webkit-appearance: none;
+}
+
+div.main
+  div.container
+  div.development-table
+  table
+  tbody
+  tr
+  td:nth-child(4)
+  progress::-webkit-progress-bar {
+  background-color: #eff4fb;
+
+  border-radius: 40px;
+}
+
+div.main
+  div.container
+  div.development-table
+  table
+  tbody
+  tr
+  td:nth-child(4)
+  progress::-webkit-progress-value {
+  background-color: #4318ff;
+
+  border-radius: 40px;
+}
+
+div.main div.container div.check-table {
+  height: 579px;
+
+  padding: 20px;
+
+  background-color: #ffffff;
+
+  border-radius: 20px;
+}
+
+div.main div.container div.check-table header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.main div.container div.check-table header h2 {
+  color: #1b2559;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.48px;
+}
+
+div.main div.container div.check-table header button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  padding: 8px;
+
+  background-color: #f4f7fe;
+  color: #a3aed0;
+
+  border: 0;
+  outline: 0;
+  border-radius: 8px;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+}
+
+div.main div.container div.check-table header button svg.purple {
+  color: #4318ff;
+}
+
+div.main div.container div.check-table table {
+  width: 100%;
+
+  margin-top: 16px;
+}
+
+div.main div.container div.check-table table thead tr th {
+  padding-right: 24px;
+
+  text-align: start;
+
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+
+  text-transform: uppercase;
+}
+
+div.main div.container div.check-table table thead tr th:nth-child(1) {
+  text-align: start;
+
+  padding-right: 124px;
+}
+
+div.main div.container div.check-table table tbody tr td {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+
+  padding-top: 16px;
+}
+
+div.main div.container div.check-table table tbody tr td:nth-child(1) {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+div.main div.container div.check-table table tbody tr td:nth-child(1) input {
+  width: 20px;
+  height: 20px;
+}
+
+div.main div.container div.column-table {
+  height: 345px;
+
+  padding: 20px;
+
+  background-color: #ffffff;
+
+  border-radius: 20px;
+}
+
+div.main div.container div.column-table header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.main div.container div.column-table header h2 {
+  color: #1b2559;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.48px;
+}
+
+div.main div.container div.column-table header button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  padding: 8px;
+
+  background-color: #f4f7fe;
+  color: #a3aed0;
+
+  border: 0;
+  outline: 0;
+  border-radius: 8px;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+}
+
+div.main div.container div.column-table header button svg.purple {
+  color: #4318ff;
+}
+
+div.main div.container div.column-table table {
+  width: 100%;
+
+  margin-top: 16px;
+}
+
+div.main div.container div.column-table table thead tr th {
+  padding-right: 24px;
+
+  text-align: start;
+
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+
+  text-transform: uppercase;
+}
+
+div.main div.container div.column-table table thead tr th:nth-child(1) {
+  text-align: start;
+
+  padding-right: 124px;
+}
+
+div.main div.container div.column-table table tbody tr td {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+
+  padding-top: 16px;
+}
+
+div.main div.container div.complex-table {
+  height: 345px;
+
+  padding: 20px;
+
+  background-color: #ffffff;
+
+  border-radius: 20px;
+}
+
+div.main div.container div.complex-table header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.main div.container div.complex-table header h2 {
+  color: #1b2559;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.48px;
+}
+
+div.main div.container div.complex-table header button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  padding: 8px;
+
+  background-color: #f4f7fe;
+  color: #a3aed0;
+
+  border: 0;
+  outline: 0;
+  border-radius: 8px;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+}
+
+div.main div.container div.complex-table header button svg.purple {
+  color: #4318ff;
+}
+
+div.main div.container div.complex-table table {
+  width: 100%;
+
+  margin-top: 16px;
+}
+
+div.main div.container div.complex-table table thead tr th {
+  padding-right: 24px;
+
+  text-align: start;
+
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+
+  text-transform: uppercase;
+}
+
+div.main div.container div.complex-table table thead tr th:nth-child(1) {
+  text-align: start;
+
+  padding-right: 124px;
+}
+
+div.main div.container div.complex-table table tbody tr td {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+
+  padding-top: 16px;
+}
+
+div.main div.container div.complex-table table tbody tr td:nth-child(2) {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+div.main div.container div.complex-table table tbody tr td.approved svg {
+  color: #05cd99;
+}
+
+div.main div.container div.complex-table table tbody tr td.disable svg {
+  color: #ee5d50;
+}
+
+div.main div.container div.complex-table table tbody tr td.error svg {
+  color: #ffce20;
+}
+
+div.main
+  div.container
+  div.complex-table
+  table
+  tbody
+  tr
+  td:nth-child(4)
+  progress {
+  width: 108px;
+  height: 8px;
+
+  -webkit-appearance: none;
+}
+
+div.main
+  div.container
+  div.complex-table
+  table
+  tbody
+  tr
+  td:nth-child(4)
+  progress::-webkit-progress-bar {
+  background-color: #eff4fb;
+
+  border-radius: 40px;
+}
+
+div.main
+  div.container
+  div.complex-table
+  table
+  tbody
+  tr
+  td:nth-child(4)
+  progress::-webkit-progress-value {
+  background-color: #4318ff;
+
+  border-radius: 40px;
+}
+
+div.main footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-top: 16px;
+}
+
+div.main footer span {
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+}
+
+div.main footer span span.simmmple {
+  font-weight: 700;
+}
+
+div.main footer div.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+div.main footer div.links a {
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+}
+
+@media screen and (max-width: 1280px) {
+  div.main {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  div.main div.container {
+    margin-top: 30px;
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  div.main {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  div.main {
+    padding: 6px;
+  }
+
+  div.main div.container div.development-table table thead tr th:nth-child(1) {
+    text-align: start;
+
+    padding-right: 4px;
+  }
+
+  div.main div.container div.development-table table tbody tr td {
+    padding-top: 8px;
+  }
+
+  div.main div.container div.check-table table thead tr th:nth-child(1) {
+    text-align: start;
+
+    padding-right: 4px;
+  }
+
+  div.main div.container div.check-table table tbody tr td {
+    padding-top: 8px;
+  }
+
+  div.main div.container div.column-table table thead tr th:nth-child(1) {
+    text-align: start;
+
+    padding-right: 4px;
+  }
+
+  div.main div.container div.column-table table tbody tr td {
+    padding-top: 8px;
+  }
+
+  div.main div.container div.complex-table table thead tr th:nth-child(1) {
+    text-align: start;
+
+    padding-right: 4px;
+  }
+
+  div.main div.container div.complex-table table tbody tr td {
+    padding-top: 8px;
+  }
+
+  div.main footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,40 @@
+a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.32px;
+}
+
+a.active {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.32px;
+}
+
+a.active svg {
+  color: #4318ff;
+}
+
+a.active::after {
+  content: "";
+
+  width: 4px;
+  height: 36px;
+
+  margin-left: auto;
+
+  background-color: #4318ff;
+
+  border-radius: 25px;
+}

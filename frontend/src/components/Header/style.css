@@ -1,0 +1,165 @@
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+header h6 {
+  color: #707eae;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+header h6 a {
+  color: #707eae;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+header h6 a:hover {
+  text-decoration: underline;
+}
+
+header div.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header div.header-container h1.title {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.68px;
+}
+
+header div.header-container div.box-info {
+  padding: 4px 16px;
+
+  background-color: #ffffff;
+
+  border-radius: 30px;
+  box-shadow: 14px 17px 40px 4px rgba(112, 144, 176, 0.08);
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+header div.header-container div.box-info div.input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  background-color: #f4f7fe;
+
+  border-radius: 16px;
+
+  padding: 8px;
+}
+
+header div.header-container div.box-info div.input-wrapper svg {
+  color: #2b3674;
+}
+
+header div.header-container div.box-info div.input-wrapper input {
+  background-color: transparent;
+
+  border: 0;
+  outline: 0;
+}
+
+header div.header-container div.box-info div.nft-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  background-color: #f4f7fe;
+
+  border-radius: 16px;
+
+  padding: 6px;
+}
+
+header div.header-container div.box-info div.nft-wrapper div.icon {
+  width: 26px;
+  height: 26px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #ffffff;
+
+  border-radius: 50%;
+}
+
+header div.header-container div.box-info div.nft-wrapper div.icon svg {
+  color: #2b3674;
+}
+
+header div.header-container div.box-info div.nft-wrapper span {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.28px;
+}
+
+header div.header-container div.box-info svg {
+  color: #a3aed0;
+
+  cursor: pointer;
+}
+
+header div.header-container div.box-info svg.menu {
+  display: none;
+}
+
+header div.header-container div.box-info img {
+  border-radius: 50%;
+
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1280px) {
+  header div.header-container div.box-info svg.menu {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header div.header-container div.box-info div.input-wrapper {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header div.header-container div.box-info div.input-wrapper,
+  header div.header-container div.box-info svg,
+  header div.header-container div.box-info img,
+  header div.header-container div.box-info div.nft-wrapper {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  header div.header-container div.box-info {
+    margin-right: 20px;
+  }
+}

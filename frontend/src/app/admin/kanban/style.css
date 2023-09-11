@@ -1,0 +1,266 @@
+div.main {
+  width: 100%;
+
+  padding: 30px;
+}
+
+div.main div.container {
+  margin-top: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+div.main div.container section {
+  padding: 16px;
+
+  background-color: #ffffff;
+
+  border-radius: 16px;
+}
+
+div.main div.container section header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.main div.container section header h2 {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.44px;
+}
+
+div.main div.container section header button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  padding: 8px;
+
+  background-color: #f4f7fe;
+
+  border: 0;
+  outline: 0;
+  border-radius: 8px;
+}
+
+div.main div.container section header button svg.purple {
+  color: #4318ff;
+}
+
+div.main div.container section div.cards {
+  margin-top: 16px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+div.main div.container section div.cards div.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  padding: 12px;
+
+  background-color: #ffffff;
+  box-shadow: 0px 18px 40px 0px rgba(112, 144, 176, 0.12);
+
+  border-radius: 15px;
+}
+
+div.main div.container section div.cards div.card header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.main div.container section div.cards div.card header h4 {
+  color: #2b3674;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.36px;
+}
+
+div.main div.container section div.cards div.card header button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: transparent;
+  color: #a3aed0;
+
+  border: 0;
+  outline: 0;
+}
+
+div.main div.container section div.cards div.card img {
+  width: 350px;
+  height: 200px;
+
+  border-radius: 15px;
+
+  object-position: center;
+  object-fit: cover;
+}
+
+div.main div.container section div.cards div.card p {
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.32px;
+}
+
+div.main div.container section div.cards div.card footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.main div.container section div.cards div.card footer div.avatars {
+  display: flex;
+  align-items: center;
+}
+
+div.main div.container section div.cards div.card footer div.avatars img {
+  width: 20px;
+  height: 20px;
+
+  margin-left: -12px;
+
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+
+  object-position: center;
+  object-fit: cover;
+}
+
+div.main
+  div.container
+  section
+  div.cards
+  div.card
+  footer
+  div.avatars
+  img:nth-child(1) {
+  margin-left: 0;
+}
+
+div.main div.container section div.cards div.card footer button {
+  padding: 6px 16px;
+
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 150%;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+div.main div.container section div.cards div.card footer button.updates {
+  background-color: #3965ff;
+}
+
+div.main div.container section div.cards div.card footer button.pending {
+  background-color: #ffb547;
+}
+
+div.main div.container section div.cards div.card footer button.errors {
+  background-color: #e31a1a;
+}
+
+div.main div.container section div.cards div.card footer button.done {
+  background-color: #01b574;
+}
+
+div.main footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-top: 16px;
+}
+
+div.main footer span {
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+}
+
+div.main footer span span.simmmple {
+  font-weight: 700;
+}
+
+div.main footer div.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+div.main footer div.links a {
+  color: #a3aed0;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+}
+
+@media screen and (max-width: 1280px) {
+  div.main {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  div.main div.container {
+    margin-top: 30px;
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  div.main {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  div.main {
+    padding: 6px;
+  }
+
+  div.main footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
